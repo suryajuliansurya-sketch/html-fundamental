@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+</head>
+<body>
+    <!--tadi main = div tapi lebih utama-->
+    <main class="container"
+    <h1>HTML FORM 5 TURORIAL DECK</h1>
+    <hr />
+    <form>
+        <div>
+            <!--tips shortcut: input: [type-nya]-->
+            <label for="inputname">Nama lengkap</label>
+            <input type="text" name="Nama_lengkap" id="inputname">
+        </div>
+        <div>
+            <!--tips shortcut: input: [type-nya]-->
+            <label for="inputAge">Umur</label>
+            <input type="Number" name="Umur" id="inputAge">
+        </div>
+        <div>
+            <label for="inputbio">biografi</label>
+            <textarea name="biografi" id="inputbio"></textarea>
+            <!-- acctions buttons-->
+        </div>
+        <div>
+            <p>jenis kelamin</p>
+            <input type="radio" name="jenis_kelamin" id="inputlanang"
+            <label for="inputlanang">laki-laki</label>
+            <input type="radio" name="jenis_kelamin" id="inputwedo"
+            <label for="inputwedo">perempuan</label>
+            <br /><br />
+        </div>
+        <div>
+            <p>Hobi</p>
+            <input type="checkbox" name="hobi" id="mainHp"
+            <label for="mainHp">mainHp</label>
+            <input type="checkbox" name="hobi" id="membacabuku"
+            <label for="membacabuku">membaca</label>
+            <br /><br />
+        </div> 
+            <div>
+                <label for="inputkota">Asal Kota</label>
+                <select name="asal_kota" id="inputkota">
+                    <option value="JKT">jakarta</option>
+                    <option value="AMB">ambarawa</option>
+                    <option value="yog">yogyakarta</option>
+                    <option value="skbm">sukabumi</option>
+                    <option value="bndng">bandung</option>
+                    <option value="bks">bekasi</option>
+                </select>
+            </div>
+            <div>
+                <label for="inputedate">tanggal lahir</label>
+                <input type="date" name="tg_lahir" id="inputedate" />
+            </div>
+            <div>
+                <label for="inputpas">password</label>
+                <input type="password" name="password" id="inputpas" />
+            </div>
+            <div>
+                <label for="inputemail">Alamat email</label>
+                <input type="email" name="email" id="inputemail"
+            </div>
+         <div class="grid">
+                <!-- tips shorchut: button: [type-nya]-->
+                 <button type="reset">batal</button>
+                 <button type="submit">simpan</button>
+             </div>
+    </form>
+</body>
+</html>
